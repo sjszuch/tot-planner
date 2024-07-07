@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+
 
 @Component({
   selector: 'app-location-card',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./location-card.component.scss']
 })
 export class LocationCardComponent {
+
+  @Input() title!: any;
+  @Input() address!: any;
 
 }

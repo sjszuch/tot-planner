@@ -4,9 +4,12 @@
 
   <!-- For each location... -->
   <div class="card-holder">
-    <app-location-card></app-location-card>
-    <app-location-card></app-location-card>
-    <app-location-card></app-location-card>
-    <app-location-card></app-location-card>
+    <!-- <app-location-card title="Place" address="1428 Elm St."></app-location-card> -->
+
+    <app-location-card
+      *ngFor="let i of data.locations"
+      title="{{ i.title }}"
+      address="{{ i.address }}"
+    ></app-location-card>
   </div>
 </div>

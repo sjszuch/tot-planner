@@ -1,0 +1,32 @@
+.container {
+  background-color: #16a1fe;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #def1ff;
+  text-shadow: 2px 2px 2px #120975;
+}
+
+.number {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #def1ff;
+  text-shadow: 2px 2px 2px #120975;
+}
+
+.location {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #def1ff;
+  text-shadow: 2px 2px 2px #120975;
+  background-color: #3f33c7;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+}/*# sourceMappingURL=lead-card.component.css.map */

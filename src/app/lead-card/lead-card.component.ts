@@ -1,16 +1,13 @@
-import { Dialog } from '@angular/cdk/dialog';
 import { Component } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
-import { DialogBoxComponent } from './dialog-box/dialog-box.component';
+import { DialogBoxComponent } from '../dialog-box/dialog-box.component';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  selector: 'app-lead-card',
+  templateUrl: './lead-card.component.html',
+  styleUrls: ['./lead-card.component.scss']
 })
-export class AppComponent {
-  title = 'tot-planner';
-
+export class LeadCardComponent {
   constructor(public dialog: MatDialog) {}
 
   openDialog() {

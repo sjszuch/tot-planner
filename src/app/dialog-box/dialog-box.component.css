@@ -1,0 +1,12 @@
+.container {
+  padding: 1rem;
+}
+
+.card-holder {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}/*# sourceMappingURL=dialog-box.component.css.map */
